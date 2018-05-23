@@ -9,28 +9,36 @@
 #ifndef LinkedList_hpp
 #define LinkedList_hpp
 
-#include <stdio.h>
-#include <stdlib.h>
+#include <iostream>
 
-typedef int DataType;
 
 /* Node 정의 */
-typedef struct Node {
-    DataType data;
-    struct Node* nextNode;
-}Node;
+struct Node {
+    int data;
+    Node* nextNode;
+};
 
 
-/* 함수 원형만 선언 */
 
-Node* CreateNode(DataType newData);
-void DestroyNode(Node* node);
-void AppendNode(Node** head, Node* node);
-void InsertAfter(Node** current, Node* node);
-void InsertNewHead(Node** head, Node* newHead);
-void RemoveNode(Node** head, Node* remove);
-Node* GetNodeAt(Node* head, int location);
-int GetNodeCount(Node* head);
+class LinkedList
+{
+private:
+    Node *head, *tail, *current;
+public:
+    LinkedList();   //생성자
+    ~LinkedList();  //소멸자
+    
+    Node* CreateNode(int newData);
+    void DestroyNode(Node* node);
+    void AppendNode(Node* node);
+    void InsertAfter(int index, Node* newNode);
+    void InsertNewHead(Node* newHead);
+    void RemoveNode(Node* remove);
+    Node* GetNodeAt(int location);
+    int GetNodeCount();
+    void PrintNode();
+    
+};
 
 
 #endif 
