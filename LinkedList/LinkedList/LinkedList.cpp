@@ -11,16 +11,6 @@
 
 using namespace std;
 
-//Node* CreateNode(int newData);
-//void DestroyNode(Node* node);
-//void AppendNode(Node** head, Node* node);
-//void InsertAfter(Node* current, Node* newNode);
-//void InsertNewHead(Node** head, Node* newHead);
-//void RemoveNode(Node** head, Node* remove);
-//Node* GetNodeAt(Node* head, int location);
-//int GetNodeCount(Node* head);
-
-
 /* Constructor */
 LinkedList::LinkedList() {
     this->head = NULL;

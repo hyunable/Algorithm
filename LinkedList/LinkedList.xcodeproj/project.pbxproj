@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC2E314720B725C800C33CFE /* CircularDoubleLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC2E314520B725C800C33CFE /* CircularDoubleLinkedList.cpp */; };
 		AC5497EE20A1FA94002A994E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC5497ED20A1FA94002A994E /* main.cpp */; };
 		AC5497F620A1FAC7002A994E /* LinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC5497F420A1FAC7002A994E /* LinkedList.cpp */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AC2E314520B725C800C33CFE /* CircularDoubleLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CircularDoubleLinkedList.cpp; sourceTree = "<group>"; };
+		AC2E314620B725C800C33CFE /* CircularDoubleLinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CircularDoubleLinkedList.hpp; sourceTree = "<group>"; };
 		AC5497EA20A1FA94002A994E /* LinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LinkedList; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC5497ED20A1FA94002A994E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		AC5497F420A1FAC7002A994E /* LinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedList.cpp; sourceTree = "<group>"; };
@@ -63,6 +66,8 @@
 				AC5497ED20A1FA94002A994E /* main.cpp */,
 				AC5497F520A1FAC7002A994E /* LinkedList.hpp */,
 				AC5497F420A1FAC7002A994E /* LinkedList.cpp */,
+				AC2E314620B725C800C33CFE /* CircularDoubleLinkedList.hpp */,
+				AC2E314520B725C800C33CFE /* CircularDoubleLinkedList.cpp */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC2E314720B725C800C33CFE /* CircularDoubleLinkedList.cpp in Sources */,
 				AC5497F620A1FAC7002A994E /* LinkedList.cpp in Sources */,
 				AC5497EE20A1FA94002A994E /* main.cpp in Sources */,
 			);
