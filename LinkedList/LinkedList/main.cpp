@@ -9,6 +9,7 @@
 #include <iostream>
 #include <cstdlib>
 #include "LinkedList.hpp"
+#include "CircularDoubleLinkedList.hpp"
 
 using namespace std;
 
@@ -41,5 +42,18 @@ int main(int argc, const char * argv[]) {
     //counter
     int num = List.GetNodeCount();
     cout << "\n*count:" << num << endl;
+    
+    
+    
+    //CircularDoubleLinkedList
+    CircularDoubleLinkedList circular;
+    
+    for (int i=0; i < 6; i++) {
+        DoubleLinkedList::Node* newNode = circular.CreateNode(i);
+        circular.AppendNode(newNode);
+    }
+    
+    circular.PrintNode();
+    
     
 }

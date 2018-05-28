@@ -14,7 +14,7 @@
 
 namespace DoubleLinkedList {
     struct Node {
-        int Data;
+        int data;
         Node *nextNode, *prevNode;
     };
 }

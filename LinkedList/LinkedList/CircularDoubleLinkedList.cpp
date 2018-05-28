@@ -26,7 +26,7 @@ Node* CircularDoubleLinkedList::CreateNode(int newData) {
     Node* node = new Node;
     node->nextNode = NULL;
     node->prevNode = NULL;
-    node->Data = newData;
+    node->data = newData;
     
     return node;
 }
@@ -46,20 +46,79 @@ void CircularDoubleLinkedList::AppendNode(Node* node) {
         tail->nextNode = node;
         node->prevNode = tail;
         tail = node;
+        tail->nextNode = head;
+        head->prevNode = tail;
+    }
+}
+
+Node* CircularDoubleLinkedList::GetNodeAt(int location) {
+    this->current = head;
+    
+    for (int i = 0; i < location; i++) {
+        current = current->nextNode;
+    }
+    return current;
+}
+
+void CircularDoubleLinkedList::InsertAfter(int index, Node* newNode) {
+    Node* nodeAt = GetNodeAt(index);
+    Node* nodeAtNext = nodeAt->nextNode;
+    
+    newNode->nextNode = nodeAtNext;
+    nodeAtNext->prevNode = newNode;
+    
+    nodeAt->nextNode = newNode;
+    newNode->prevNode = nodeAt;
+}
+
+
+void CircularDoubleLinkedList::InsertNewHead(Node* newHead){
+    if (head == NULL) {
+        this->head = newHead;
+        this->tail = newHead;
+    } else {
+        head->prevNode = newHead;
+        newHead->nextNode = head;
+        
+        head = newHead;
     }
 }
 
 
-void CircularDoubleLinkedList::InsertAfter(int index, Node* newNode) {
-    
+void CircularDoubleLinkedList::RemoveNode(Node* remove) {
+    if (head == remove) {
+        head = remove->nextNode;
+        head->prevNode = NULL;
+    } else {
+        current = head;
+        while (current->nextNode != remove && current != NULL) {
+            current = current->nextNode;
+        }
+        current->nextNode = remove->nextNode;
+        remove->prevNode = current;
+        delete remove;
+    }
 }
 
 
+int CircularDoubleLinkedList::GetNodeCount() {
+    int counter = 0;
+    for (Node* ptr = this->head; ptr!=tail; ptr = ptr->nextNode) {
+        counter++;
+    }
+    
+    return counter;
+}
 
-
-
-//void InsertNewHead(DoubleLinkedList::Node* newHead);
-//void RemoveNode(DoubleLinkedList::Node* remove);
-//DoubleLinkedList::Node* GetNodeAt(int location);
-//int GetNodeCount();
-//void PrintNode();
+void CircularDoubleLinkedList::PrintNode() {
+    int Count = GetNodeCount();
+    int i = 0;
+    cout << endl;
+    for (Node* ptr = head; i<Count*2; ptr = ptr->nextNode) {
+        cout << "DoubleNode:" << ptr->data ;
+        if (ptr->nextNode != NULL) {
+            cout << "->" ;
+        }
+        i++;
+    }
+}
