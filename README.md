@@ -1,2 +1,6 @@
-# Data Structure
-1. [Linked List](https://github.com/hyunable/Algorithm/blob/master/markdown/ch1_LinkedList.md)
+---
+description: 알고리즘에 대한 개념 및 접근 (C++)
+---
+
+# Algorithm
+
