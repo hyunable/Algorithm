@@ -24,6 +24,17 @@
 
 using namespace std;
 
+int binaryToDecimal(int num) {
+    int result = 0;
+    
+    for (int i=1; num > 0; i*=2) {
+        int demical = num % 10;
+        result += demical*i;
+        num /= 10;
+    }
+    return result;
+}
+
 long decimalToBinary(int num) {
     long result = 0;
 

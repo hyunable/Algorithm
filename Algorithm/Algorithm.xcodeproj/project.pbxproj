@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DC2C4AEF212D43F900E27FB3 /* L1_iterations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC2C4AEE212D43F900E27FB3 /* L1_iterations.cpp */; };
-		DC2C4AF1212D59A700E27FB3 /* L1_iterationsBinary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC2C4AF0212D59A700E27FB3 /* L1_iterationsBinary.cpp */; };
+		DC2C4AF5212E62A300E27FB3 /* L2_Arrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC2C4AF4212E62A300E27FB3 /* L2_Arrays.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +26,7 @@
 /* Begin PBXFileReference section */
 		DC2C4AE4212D2C7800E27FB3 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC2C4AEE212D43F900E27FB3 /* L1_iterations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = L1_iterations.cpp; sourceTree = "<group>"; };
-		DC2C4AF0212D59A700E27FB3 /* L1_iterationsBinary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = L1_iterationsBinary.cpp; sourceTree = "<group>"; };
+		DC2C4AF4212E62A300E27FB3 /* L2_Arrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = L2_Arrays.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				DC2C4AEE212D43F900E27FB3 /* L1_iterations.cpp */,
-				DC2C4AF0212D59A700E27FB3 /* L1_iterationsBinary.cpp */,
+				DC2C4AF4212E62A300E27FB3 /* L2_Arrays.cpp */,
 			);
 			path = Algorithm_Codility;
 			sourceTree = "<group>";
@@ -132,7 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC2C4AEF212D43F900E27FB3 /* L1_iterations.cpp in Sources */,
-				DC2C4AF1212D59A700E27FB3 /* L1_iterationsBinary.cpp in Sources */,
+				DC2C4AF5212E62A300E27FB3 /* L2_Arrays.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
