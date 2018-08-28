@@ -49,7 +49,7 @@ long decimalToBinary(int num) {
 }
 
 //codility part
-int solution(int N) {
+int solution1(int N) {
     long binary = decimalToBinary(N);
     int largestGap = 0;
     
@@ -77,9 +77,9 @@ int solution(int N) {
 }
 
 
-int main() {
-    int gap = solution(805306373);
-    cout << "gap: " << gap << endl;
-    
-    return 0;
-}
+//int main() {
+//    int gap = solution(805306373);
+//    cout << "gap: " << gap << endl;
+//    
+//    return 0;
+//}
