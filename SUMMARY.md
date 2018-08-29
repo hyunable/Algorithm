@@ -6,4 +6,5 @@
   * [11. Sieve of Eratosthenes](codility-algorithm/untitled.md)
 * [⎔ 문제 해결 방법](undefined-1/README.md)
   * [무식하게 풀기 \(brute-force\)](undefined-1/brute-force.md)
+  * [가장 많이 하는 실수](undefined-1/undefined.md)
 
