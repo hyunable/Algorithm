@@ -1,5 +1,5 @@
 ---
-description: 가능한 방법을 전부 만들어 보는 알고리즘으로 흔히 완전탐색(exhaustive search) 라고 한다.
+description: 재귀함수
 ---
 
 # 무식하게 풀기 \(brute-force\)
@@ -78,10 +78,6 @@ void pickNumber(int n, vector<int>& pickedNum, int toPick){
 
 완전 탐색 알고리즘의 시간 복잡도를 계산하는 것은 비교적 단순하다.  
 가능한 답 후보들을 모두 구하는 것이기 때문에, 그 답들을 모두 세어보면 된다.
-
-
-
-## 
 
 ##  완전탐색으로 해결하기 위한 과정
 
