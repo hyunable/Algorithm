@@ -7,7 +7,7 @@ description: 에라토스테네스의 채
 **소수를 찾는 방법**중 가장 널리 알려지고 심플한 방법중 하나이다.  
 N까지의 연속된 수 중 소수만 걸러내는 에라토스테네스의 체는 아래와 같은 논리로 접근한다.
 
-![](../.gitbook/assets/sieve_of_eratosthenes_animation.gif)
+![](../../.gitbook/assets/sieve_of_eratosthenes_animation.gif)
 
 * 소수는 약수가 1과 자기 자신으로 이루어진 수이므로 2이상의 자연수부터 지워나간다.
 * 2 이상의 자연수 중 체크되지 않은 가장 작은 수를 찾아 그 수의 배수들을 모두 지운다.
@@ -68,4 +68,8 @@ void primechk(){
 
 //출처: http://weeklyps.com/entry/에라토스테네스의-체-소수-구하기 [weekly ps]
 ```
+
+
+
+
 
