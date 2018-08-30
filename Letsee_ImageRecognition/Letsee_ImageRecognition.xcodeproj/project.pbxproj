@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC2C4B0921364D4000E27FB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2C4B0821364D4000E27FB3 /* AppDelegate.swift */; };
+		DC2C4B0B21364D4000E27FB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2C4B0A21364D4000E27FB3 /* ViewController.swift */; };
+		DC2C4B0E21364D4000E27FB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC2C4B0C21364D4000E27FB3 /* Main.storyboard */; };
+		DC2C4B1021364D4300E27FB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC2C4B0F21364D4300E27FB3 /* Assets.xcassets */; };
+		DC2C4B1321364D4300E27FB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC2C4B1121364D4300E27FB3 /* LaunchScreen.storyboard */; };
+		DC2C4B1E21364D4300E27FB3 /* Letsee_ImageRecognitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2C4B1D21364D4300E27FB3 /* Letsee_ImageRecognitionTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC2C4B1A21364D4300E27FB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC2C4AFD21364D4000E27FB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC2C4B0421364D4000E27FB3;
+			remoteInfo = Letsee_ImageRecognition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC2C4B0521364D4000E27FB3 /* Letsee_ImageRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Letsee_ImageRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2C4B0821364D4000E27FB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC2C4B0A21364D4000E27FB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC2C4B0D21364D4000E27FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC2C4B0F21364D4300E27FB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC2C4B1221364D4300E27FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC2C4B1421364D4300E27FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC2C4B1921364D4300E27FB3 /* Letsee_ImageRecognitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Letsee_ImageRecognitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2C4B1D21364D4300E27FB3 /* Letsee_ImageRecognitionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Letsee_ImageRecognitionTests.swift; sourceTree = "<group>"; };
+		DC2C4B1F21364D4300E27FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC2C4B0221364D4000E27FB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2C4B1621364D4300E27FB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC2C4AFC21364D4000E27FB3 = {
+			isa = PBXGroup;
+			children = (
+				DC2C4B0721364D4000E27FB3 /* Letsee_ImageRecognition */,
+				DC2C4B1C21364D4300E27FB3 /* Letsee_ImageRecognitionTests */,
+				DC2C4B0621364D4000E27FB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC2C4B0621364D4000E27FB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC2C4B0521364D4000E27FB3 /* Letsee_ImageRecognition.app */,
+				DC2C4B1921364D4300E27FB3 /* Letsee_ImageRecognitionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC2C4B0721364D4000E27FB3 /* Letsee_ImageRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				DC2C4B0821364D4000E27FB3 /* AppDelegate.swift */,
+				DC2C4B0A21364D4000E27FB3 /* ViewController.swift */,
+				DC2C4B0C21364D4000E27FB3 /* Main.storyboard */,
+				DC2C4B0F21364D4300E27FB3 /* Assets.xcassets */,
+				DC2C4B1121364D4300E27FB3 /* LaunchScreen.storyboard */,
+				DC2C4B1421364D4300E27FB3 /* Info.plist */,
+			);
+			path = Letsee_ImageRecognition;
+			sourceTree = "<group>";
+		};
+		DC2C4B1C21364D4300E27FB3 /* Letsee_ImageRecognitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC2C4B1D21364D4300E27FB3 /* Letsee_ImageRecognitionTests.swift */,
+				DC2C4B1F21364D4300E27FB3 /* Info.plist */,
+			);
+			path = Letsee_ImageRecognitionTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC2C4B0421364D4000E27FB3 /* Letsee_ImageRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC2C4B2221364D4300E27FB3 /* Build configuration list for PBXNativeTarget "Letsee_ImageRecognition" */;
+			buildPhases = (
+				DC2C4B0121364D4000E27FB3 /* Sources */,
+				DC2C4B0221364D4000E27FB3 /* Frameworks */,
+				DC2C4B0321364D4000E27FB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Letsee_ImageRecognition;
+			productName = Letsee_ImageRecognition;
+			productReference = DC2C4B0521364D4000E27FB3 /* Letsee_ImageRecognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC2C4B1821364D4300E27FB3 /* Letsee_ImageRecognitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC2C4B2521364D4300E27FB3 /* Build configuration list for PBXNativeTarget "Letsee_ImageRecognitionTests" */;
+			buildPhases = (
+				DC2C4B1521364D4300E27FB3 /* Sources */,
+				DC2C4B1621364D4300E27FB3 /* Frameworks */,
+				DC2C4B1721364D4300E27FB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC2C4B1B21364D4300E27FB3 /* PBXTargetDependency */,
+			);
+			name = Letsee_ImageRecognitionTests;
+			productName = Letsee_ImageRecognitionTests;
+			productReference = DC2C4B1921364D4300E27FB3 /* Letsee_ImageRecognitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC2C4AFD21364D4000E27FB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = hyunable;
+				TargetAttributes = {
+					DC2C4B0421364D4000E27FB3 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					DC2C4B1821364D4300E27FB3 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = DC2C4B0421364D4000E27FB3;
+					};
+				};
+			};
+			buildConfigurationList = DC2C4B0021364D4000E27FB3 /* Build configuration list for PBXProject "Letsee_ImageRecognition" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC2C4AFC21364D4000E27FB3;
+			productRefGroup = DC2C4B0621364D4000E27FB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC2C4B0421364D4000E27FB3 /* Letsee_ImageRecognition */,
+				DC2C4B1821364D4300E27FB3 /* Letsee_ImageRecognitionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC2C4B0321364D4000E27FB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2C4B1321364D4300E27FB3 /* LaunchScreen.storyboard in Resources */,
+				DC2C4B1021364D4300E27FB3 /* Assets.xcassets in Resources */,
+				DC2C4B0E21364D4000E27FB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2C4B1721364D4300E27FB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC2C4B0121364D4000E27FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2C4B0B21364D4000E27FB3 /* ViewController.swift in Sources */,
+				DC2C4B0921364D4000E27FB3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2C4B1521364D4300E27FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2C4B1E21364D4300E27FB3 /* Letsee_ImageRecognitionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC2C4B1B21364D4300E27FB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC2C4B0421364D4000E27FB3 /* Letsee_ImageRecognition */;
+			targetProxy = DC2C4B1A21364D4300E27FB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC2C4B0C21364D4000E27FB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC2C4B0D21364D4000E27FB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC2C4B1121364D4300E27FB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC2C4B1221364D4300E27FB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC2C4B2021364D4300E27FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC2C4B2121364D4300E27FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC2C4B2321364D4300E27FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T65BQC9535;
+				INFOPLIST_FILE = Letsee_ImageRecognition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.hyunable.Letsee-ImageRecognition";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC2C4B2421364D4300E27FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T65BQC9535;
+				INFOPLIST_FILE = Letsee_ImageRecognition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.hyunable.Letsee-ImageRecognition";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC2C4B2621364D4300E27FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T65BQC9535;
+				INFOPLIST_FILE = Letsee_ImageRecognitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.hyunable.Letsee-ImageRecognitionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Letsee_ImageRecognition.app/Letsee_ImageRecognition";
+			};
+			name = Debug;
+		};
+		DC2C4B2721364D4300E27FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T65BQC9535;
+				INFOPLIST_FILE = Letsee_ImageRecognitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.hyunable.Letsee-ImageRecognitionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Letsee_ImageRecognition.app/Letsee_ImageRecognition";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC2C4B0021364D4000E27FB3 /* Build configuration list for PBXProject "Letsee_ImageRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC2C4B2021364D4300E27FB3 /* Debug */,
+				DC2C4B2121364D4300E27FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC2C4B2221364D4300E27FB3 /* Build configuration list for PBXNativeTarget "Letsee_ImageRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC2C4B2321364D4300E27FB3 /* Debug */,
+				DC2C4B2421364D4300E27FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC2C4B2521364D4300E27FB3 /* Build configuration list for PBXNativeTarget "Letsee_ImageRecognitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC2C4B2621364D4300E27FB3 /* Debug */,
+				DC2C4B2721364D4300E27FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC2C4AFD21364D4000E27FB3 /* Project object */;
+}
