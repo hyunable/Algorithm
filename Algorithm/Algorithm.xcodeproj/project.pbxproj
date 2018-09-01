@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC2C4B31213697DD00E27FB3 /* Day4_ClassVSInstance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC2C4B30213697DD00E27FB3 /* Day4_ClassVSInstance.cpp */; };
+		AC900CE0213ACB6200ACAA63 /* Re_Coding_Test_02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC900CC4213A996000ACAA63 /* Re_Coding_Test_02.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +46,9 @@
 		AC900CA521357D7B00ACAA63 /* L10_CountFactors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = L10_CountFactors.cpp; sourceTree = "<group>"; };
 		AC900CA621357D7B00ACAA63 /* L10_MinPerimeterRectangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = L10_MinPerimeterRectangle.cpp; sourceTree = "<group>"; };
 		AC900CA721357D7B00ACAA63 /* L11_CountNonDivisible.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = L11_CountNonDivisible.cpp; sourceTree = "<group>"; };
+		AC900CC2213A994A00ACAA63 /* Re_Coding_Test_01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Re_Coding_Test_01.cpp; sourceTree = "<group>"; };
+		AC900CC4213A996000ACAA63 /* Re_Coding_Test_02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Re_Coding_Test_02.cpp; sourceTree = "<group>"; };
+		AC900CC6213A996700ACAA63 /* Re_Coding_Test_03.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Re_Coding_Test_03.cpp; sourceTree = "<group>"; };
 		DC2C4AE4212D2C7800E27FB3 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC2C4AEE212D43F900E27FB3 /* L1_iterations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = L1_iterations.cpp; sourceTree = "<group>"; };
 		DC2C4AF4212E62A300E27FB3 /* L2_Arrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = L2_Arrays.cpp; sourceTree = "<group>"; };
@@ -77,11 +80,22 @@
 		AC900CA421357D4C00ACAA63 /* Codility_CodingTest_N */ = {
 			isa = PBXGroup;
 			children = (
+				AC900CC1213A993100ACAA63 /* refactoring */,
 				AC900C9C2132AD2500ACAA63 /* CodingTest_01.cpp */,
 				AC900C9E2132AD2D00ACAA63 /* CodingTest_02.cpp */,
 				AC900CA12132AD4400ACAA63 /* CodingTest_03.cpp */,
 			);
 			path = Codility_CodingTest_N;
+			sourceTree = "<group>";
+		};
+		AC900CC1213A993100ACAA63 /* refactoring */ = {
+			isa = PBXGroup;
+			children = (
+				AC900CC2213A994A00ACAA63 /* Re_Coding_Test_01.cpp */,
+				AC900CC4213A996000ACAA63 /* Re_Coding_Test_02.cpp */,
+				AC900CC6213A996700ACAA63 /* Re_Coding_Test_03.cpp */,
+			);
+			path = refactoring;
 			sourceTree = "<group>";
 		};
 		DC2C4ADB212D2C7800E27FB3 = {
@@ -198,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC2C4B31213697DD00E27FB3 /* Day4_ClassVSInstance.cpp in Sources */,
+				AC900CE0213ACB6200ACAA63 /* Re_Coding_Test_02.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

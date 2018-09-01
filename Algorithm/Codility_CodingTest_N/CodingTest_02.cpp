@@ -72,46 +72,15 @@ string solution(int A, int B, int C, int D, int E, int F) {
 }
 
 int main() {
+    cout << solution(0, 0, 0, 0, 0, 0) << endl;
+    //00:00:00
+    cout << solution(0, 0, 0, 7, 8, 9) << endl;
+    //07:08:09
     cout << solution(1, 8, 3, 2, 6, 4) << endl;
+    //12:36:48
+    cout << solution(2, 4, 5, 9, 5, 9) << endl;
+    //not possible
+    cout << solution(1,4,4,5,5,5) << endl;
+    //not possible
 }
 
-
-//public String solution(int A, int B, int C, int D, int E, int F) {
-//    int[] inputArr = new int[] { A, B, C, D, E, F };
-//    Arrays.sort(inputArr);
-//
-//    if (inputArr[4] >= 6 && inputArr[3] < 6) {
-//        swap(inputArr, 3, 4);
-//    } else if (inputArr[4] >= 6 && inputArr[3] >= 6 && inputArr[2] < 2) {
-//        swap(inputArr, 3, 1);
-//        swap(inputArr, 3, 4);
-//    }
-//
-//    if (validate(inputArr))
-//        return NOT_POSSIBLE;
-//    else {
-//        return String.format("%d%d:%d%d:%d%d", inputArr[0], inputArr[1], inputArr[2], inputArr[3], inputArr[4], inputArr[5]);
-//    }
-//}
-//
-//private void swap(int[] inputArr, int i, int j) {
-//    int tmp = inputArr[i];
-//    inputArr[i] = inputArr[j];
-//    inputArr[j] = tmp;
-//}
-//
-//private boolean validate(int[] inputArr) {
-//    if (inputArr[0] > 2) {
-//        return true;
-//    }
-//    if (inputArr[0] == 2 && inputArr[1] > 3) {
-//        return true;
-//    }
-//    if (inputArr[2] > 5) {
-//        return true;
-//    }
-//    if (inputArr[4] > 5) {
-//        return true;
-//    }
-//    return false;
-//    }
