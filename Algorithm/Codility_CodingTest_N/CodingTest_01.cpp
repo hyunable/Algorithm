@@ -31,5 +31,5 @@ int main() {
     vector<int> v1 = {1, 6, 2, 3};
     cout << "result" <<solution(v1) << endl;
     return 0;
-    //retrun 5
+    //retrun 3
 }

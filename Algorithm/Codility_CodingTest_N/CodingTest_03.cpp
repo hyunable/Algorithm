@@ -13,6 +13,11 @@
  - complexity : complexity : O(logn) => for문 불가 ,  O(1)
  */
 
+/*
+ Bug
+ 
+ */
+
 #include <algorithm>
 #include <iostream>
 #include <cstring>
@@ -28,6 +33,7 @@ int factorial(int N){
 int solution(int N) {
     string inputNum = to_string(N);
     unordered_map<char, int> inputMap;
+    
     int total = (int)inputNum.size();
     int result = 0;
     int overlap = 0;
@@ -59,6 +65,12 @@ int solution(int N) {
 }
 
 int main() {
-    cout << solution(1001) << endl;
+    cout << solution(1213) << endl;
+    //12
+    cout << solution(12332) << endl;
+    //30
+    cout << solution(2233300) << endl;
+    //150
+    cout << solution(1100) << endl;
+    //3
 }
-

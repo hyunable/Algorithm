@@ -6,6 +6,11 @@
 //  Copyright © 2018년 hyunable. All rights reserved.
 //
 
+/*
+ Bug
+ - 앞자리에 2가 오는 경우를 아얘 제외했다.
+ */
+
 /**
  * digit[0]의 범위 [0,2]
  * digit[1]의 범위 [0,9]
@@ -80,7 +85,16 @@ int main() {
     //12:36:48
     cout << solution(2, 4, 5, 9, 5, 9) << endl;
     //not possible
-    cout << solution(1,4,4,5,5,5) << endl;
+    cout << solution(2, 4, 4, 9, 5, 9) << endl;
     //not possible
+    cout << solution(1,4,4,5,5,5) << endl;
+    //14:45:55
+    
+    //fail
+    cout << solution(1,1,2,9,8,9) << endl;
+    //19:18:29
+    cout << solution(2,2,3,6,9,9) << endl;
+    //26:29:39
+    
 }
 

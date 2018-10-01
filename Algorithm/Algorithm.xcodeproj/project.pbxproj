@@ -7,7 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
+<<<<<<< HEAD
+		AC4B73072160E59900CB8BB0 /* Jumping on the Clouds.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC4B73062160E59900CB8BB0 /* Jumping on the Clouds.cpp */; };
+		ACCDC7A3214CE53C00BE1E7E /* CodingTest_01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACCDC79D214CD66D00BE1E7E /* CodingTest_01.cpp */; };
+||||||| merged common ancestors
+		AC900CE0213ACB6200ACAA63 /* Re_Coding_Test_02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC900CC4213A996000ACAA63 /* Re_Coding_Test_02.cpp */; };
+=======
 		DC9AADD8213E566700F1CE2F /* InsertionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC9AADD7213E566700F1CE2F /* InsertionSort.cpp */; };
+>>>>>>> df75316ff55dab569229b6e6f1bf2a8d2c918d32
+||||||| merged common ancestors
+		AC900CE0213ACB6200ACAA63 /* Re_Coding_Test_02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC900CC4213A996000ACAA63 /* Re_Coding_Test_02.cpp */; };
+=======
+		DC9AADD8213E566700F1CE2F /* InsertionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC9AADD7213E566700F1CE2F /* InsertionSort.cpp */; };
+>>>>>>> df75316ff55dab569229b6e6f1bf2a8d2c918d32
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +49,8 @@
 		AC2212FB2131C55F00F735D5 /* L8_EquiLeader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = L8_EquiLeader.cpp; sourceTree = "<group>"; };
 		AC2212FD21324C7A00F735D5 /* L9_MaxProfit .cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "L9_MaxProfit .cpp"; sourceTree = "<group>"; };
 		AC245A5821327538007EFDE8 /* L9_MaxSliceSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = L9_MaxSliceSum.cpp; sourceTree = "<group>"; };
+		AC4B73042160DEA400CB8BB0 /* Counting Valleys.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Counting Valleys.cpp"; sourceTree = "<group>"; };
+		AC4B73062160E59900CB8BB0 /* Jumping on the Clouds.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Jumping on the Clouds.cpp"; sourceTree = "<group>"; };
 		AC6B13EA212FB8EA00D9E3A4 /* Test_2750.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test_2750.cpp; sourceTree = "<group>"; };
 		AC6B13EE213003FB00D9E3A4 /* L2_Arrays2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = L2_Arrays2.cpp; sourceTree = "<group>"; };
 		AC6B13F22130203600D9E3A4 /* L3_TimeComplexity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = L3_TimeComplexity.cpp; sourceTree = "<group>"; };
@@ -46,9 +61,15 @@
 		AC900CA521357D7B00ACAA63 /* L10_CountFactors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = L10_CountFactors.cpp; sourceTree = "<group>"; };
 		AC900CA621357D7B00ACAA63 /* L10_MinPerimeterRectangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = L10_MinPerimeterRectangle.cpp; sourceTree = "<group>"; };
 		AC900CA721357D7B00ACAA63 /* L11_CountNonDivisible.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = L11_CountNonDivisible.cpp; sourceTree = "<group>"; };
-		AC900CC2213A994A00ACAA63 /* Re_Coding_Test_01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Re_Coding_Test_01.cpp; sourceTree = "<group>"; };
 		AC900CC4213A996000ACAA63 /* Re_Coding_Test_02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Re_Coding_Test_02.cpp; sourceTree = "<group>"; };
 		AC900CC6213A996700ACAA63 /* Re_Coding_Test_03.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Re_Coding_Test_03.cpp; sourceTree = "<group>"; };
+		ACCDC79D214CD66D00BE1E7E /* CodingTest_01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CodingTest_01.cpp; sourceTree = "<group>"; };
+		ACCDC79E214CD69A00BE1E7E /* CodingTest_02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CodingTest_02.cpp; sourceTree = "<group>"; };
+		ACCDC79F214CD6E900BE1E7E /* CodingTest_03.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CodingTest_03.cpp; sourceTree = "<group>"; };
+		ACCDC7A0214CD71400BE1E7E /* CodingTest_04.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CodingTest_04.cpp; sourceTree = "<group>"; };
+		ACCDC7A2214CD7C500BE1E7E /* CodingTest_05.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CodingTest_05.cpp; sourceTree = "<group>"; };
+		ACCDC7A421563B3300BE1E7E /* L12_ Fibonacci.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "L12_ Fibonacci.cpp"; sourceTree = "<group>"; };
+		ACCDC7A621564B9600BE1E7E /* L13_.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = L13_.cpp; sourceTree = "<group>"; };
 		DC2C4AE4212D2C7800E27FB3 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC2C4AEE212D43F900E27FB3 /* L1_iterations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = L1_iterations.cpp; sourceTree = "<group>"; };
 		DC2C4AF4212E62A300E27FB3 /* L2_Arrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = L2_Arrays.cpp; sourceTree = "<group>"; };
@@ -73,6 +94,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC4B73032160DE8300CB8BB0 /* Interview */ = {
+			isa = PBXGroup;
+			children = (
+				AC4B73042160DEA400CB8BB0 /* Counting Valleys.cpp */,
+				AC4B73062160E59900CB8BB0 /* Jumping on the Clouds.cpp */,
+			);
+			path = Interview;
+			sourceTree = "<group>";
+		};
 		AC6B13E9212FB8EA00D9E3A4 /* Algorithm_beakjun */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,11 +126,22 @@
 		AC900CC1213A993100ACAA63 /* refactoring */ = {
 			isa = PBXGroup;
 			children = (
-				AC900CC2213A994A00ACAA63 /* Re_Coding_Test_01.cpp */,
 				AC900CC4213A996000ACAA63 /* Re_Coding_Test_02.cpp */,
 				AC900CC6213A996700ACAA63 /* Re_Coding_Test_03.cpp */,
 			);
 			path = refactoring;
+			sourceTree = "<group>";
+		};
+		ACCDC79C214CD63C00BE1E7E /* CodingTest_Kakao */ = {
+			isa = PBXGroup;
+			children = (
+				ACCDC79D214CD66D00BE1E7E /* CodingTest_01.cpp */,
+				ACCDC79E214CD69A00BE1E7E /* CodingTest_02.cpp */,
+				ACCDC79F214CD6E900BE1E7E /* CodingTest_03.cpp */,
+				ACCDC7A0214CD71400BE1E7E /* CodingTest_04.cpp */,
+				ACCDC7A2214CD7C500BE1E7E /* CodingTest_05.cpp */,
+			);
+			path = CodingTest_Kakao;
 			sourceTree = "<group>";
 		};
 		DC2C4ADB212D2C7800E27FB3 = {
@@ -108,6 +149,7 @@
 			children = (
 				DC9AADD2213E365400F1CE2F /* Sortion */,
 				DC2C4B2A21368FF600E27FB3 /* Algorithm_Hackerrank */,
+				ACCDC79C214CD63C00BE1E7E /* CodingTest_Kakao */,
 				AC900CA421357D4C00ACAA63 /* Codility_CodingTest_N */,
 				AC6B13E9212FB8EA00D9E3A4 /* Algorithm_beakjun */,
 				DC2C4AE6212D2C7800E27FB3 /* Algorithm_Codility */,
@@ -146,6 +188,8 @@
 				AC900CA521357D7B00ACAA63 /* L10_CountFactors.cpp */,
 				AC900CA621357D7B00ACAA63 /* L10_MinPerimeterRectangle.cpp */,
 				AC900CA721357D7B00ACAA63 /* L11_CountNonDivisible.cpp */,
+				ACCDC7A421563B3300BE1E7E /* L12_ Fibonacci.cpp */,
+				ACCDC7A621564B9600BE1E7E /* L13_.cpp */,
 			);
 			path = Algorithm_Codility;
 			sourceTree = "<group>";
@@ -156,6 +200,7 @@
 				DC2C4B2B2136904E00E27FB3 /* Day2_Operators.cpp */,
 				DC2C4B2D2136933800E27FB3 /* Day3_IntrotoConditionalStatements.cpp */,
 				DC2C4B30213697DD00E27FB3 /* Day4_ClassVSInstance.cpp */,
+				AC4B73032160DE8300CB8BB0 /* Interview */,
 			);
 			path = Algorithm_Hackerrank;
 			sourceTree = "<group>";
@@ -230,7 +275,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
+<<<<<<< HEAD
+				AC4B73072160E59900CB8BB0 /* Jumping on the Clouds.cpp in Sources */,
+				ACCDC7A3214CE53C00BE1E7E /* CodingTest_01.cpp in Sources */,
+||||||| merged common ancestors
+				AC900CE0213ACB6200ACAA63 /* Re_Coding_Test_02.cpp in Sources */,
+=======
 				DC9AADD8213E566700F1CE2F /* InsertionSort.cpp in Sources */,
+>>>>>>> df75316ff55dab569229b6e6f1bf2a8d2c918d32
+||||||| merged common ancestors
+				AC900CE0213ACB6200ACAA63 /* Re_Coding_Test_02.cpp in Sources */,
+=======
+				DC9AADD8213E566700F1CE2F /* InsertionSort.cpp in Sources */,
+>>>>>>> df75316ff55dab569229b6e6f1bf2a8d2c918d32
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

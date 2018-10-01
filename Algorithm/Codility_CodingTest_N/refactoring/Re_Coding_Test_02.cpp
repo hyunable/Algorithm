@@ -6,6 +6,26 @@
 //  Copyright © 2018년 hyunable. All rights reserved.
 //
 
+
+/* 2번째문제 : 시계 */
+/*
+ Bug
+ - 맨 앞자리에 2가오는 경우의 수를 고려하지 않았다.
+ */
+
+/*
+ Solution
+ 
+ ** not possible case
+    - 가장 앞의 수가 2초과 || 2이상, 두번째 수가 4초과 일때
+    - 5이하의 수가 3개 미만일때 (2,4번째 인덱스는 최대 5)
+
+ - 0,1,2 중 하나를 포함한 5이하의 수가 3개일때 -> 나열 한다음 나머지 세개를 순서대로 인덱스 1,3,5에 삽입
+ - 0,1,2 중 하나를 포함한 5이하의 수가 4개일때 -> 나열 한다음 나머지 두개를 순서대로 인덱스 3,5에 삽입
+ - 0,1,2 중 하나를 포함한 5이하의 수가 5개이상 -> 무조건 통과 (그대로 소트)
+
+ */
+
 #include <iostream>
 #include <algorithm>
 #include <string>
@@ -39,13 +59,14 @@ string solution(int A, int B, int C, int D, int E, int F) {
         return NOT_POSSIBLE;
     }
     
-    //divide
+    //6이상이 되기 직전의 인덱스를 구한다.
     for(int i = 0 ; i < digitArr.size() ; i++){
         if(digitArr[i] > 5){
             point = i-1;
             if(point < 2){
                 return NOT_POSSIBLE;
             }
+            break;
         }
     }
     
@@ -91,4 +112,11 @@ int main() {
     //not possible
     cout << solution(1,4,4,5,5,5) << endl;
     //not possible
+    cout << solution(1,1,2,9,8,9) << endl;
+    //19:18:29
+    
+    //fail
+    cout << solution(2,3,4,5,9,9) << endl;
+    cout << solution(2,2,3,6,9,9) << endl;
+    //26:29:39
 }
